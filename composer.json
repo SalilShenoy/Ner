@@ -1,0 +1,19 @@
+{
+    "name":"named_entity_recognition",
+    "description":"Named Entity Recognition",
+    "authors": [
+        {            
+            "name": "Salil Shenoy",
+            "email": "salilshenoy@gmail.com"
+        }
+    ],
+    "config": {
+        "secure-http":false
+    },
+    "require":{
+        "seekquarry/yioop":">=3.3.0",
+        "agentile/php-stanford-nlp": "0.1.1",
+        "yooper/php-text-analysis": "v1.1.3.1",
+        "dennis-de-swart/php-stanford-corenlp-adapter": "*"
+    }
+}
