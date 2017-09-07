@@ -8,7 +8,6 @@
     print ('Named Entity Recognition Module For Yioop');
 
     $text = "The Golden Gate Bridge was designed by Joseph Strauss.";
-    $text = 'क्या आप अंग्रेजी-हिंदी में बात कर सकते हैं';
 
     $coreNLP = new \CorenlpAdapter();
     $coreNLP->getOutput($text);
